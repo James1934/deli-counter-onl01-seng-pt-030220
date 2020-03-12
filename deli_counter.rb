@@ -3,7 +3,7 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty."
   else
-    output = "The line is currently: "
+    output = "The line is currently empty."
     count = 0
     line.each do |person|
       count += 1
